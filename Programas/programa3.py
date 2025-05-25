@@ -4,12 +4,12 @@
 from microbit import *  
 import music  
 
-# Configuración de pins / Configuración dos pins  
+# Configuración de pins
 boton_a = pin5  # *Asignar pin correcto  
 led = pin14  
 
 def accion_boton():  
-    for _ in range(5):  # Parpadear 5 veces / Piscar 5 veces  
+    for _ in range(5):  # Parpadear 5 veces
         led.write_digital(1)  
         music.play(music.RINGTONE)  
         sleep(500)  
