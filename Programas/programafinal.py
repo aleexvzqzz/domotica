@@ -1,5 +1,4 @@
-"""
-Alejandro Vázquez Iglesias | MAQUETA TEIS 4 | Sistema Integrado
+"""Alejandro Vázquez Iglesias | MAQUETA TEIS 4 | Sistema Integrado
 Fecha: 05/05/25"""
 
 from microbit import *
